@@ -1,0 +1,11 @@
+      - name: Generate HTML from Markdown
+        uses: ldeluigi/markdown-docs@latest
+        with:
+          src: doc
+          dst: generated
+          title: Markdown Docs
+          language: en
+          icon: library
+          primary-color: indigo
+          secondary-color: indigo
+          hide-repository: false
