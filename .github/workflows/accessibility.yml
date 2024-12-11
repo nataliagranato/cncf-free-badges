@@ -1,8 +1,9 @@
 name: Markdown  Helper
 
-# Runs only when triggered manually. You can also trigger this action on a schedule or on push or pull request events by changing the on section.
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
